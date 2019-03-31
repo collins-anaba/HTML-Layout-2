@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(90deg, rgb(170, 170, 180),rgb(176, 187, 197));
+    font-family: 'comic sans', sans-serif;
+}
+
+a, h1 {
+    all: unset;
+
+}
+#nav {
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(247, 134, 237);
+    padding: 15px;
+    border-radius: 3px;
+    align-items: baseline;
+    flex-flow: row nowrap; 
+    
+}
+h1{
+    color: rgb(100, 0, 42);
+    font: Arial;
+    font-size: 24pt;
+}
+#search {
+    background: rgb(255, 255, 255);
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+    border: solid black 1px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+#sign{
+    display: flex;
+    width: 10vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    width: 40vw;
+    font-weight: 100;
+    letter-spacing: 4px;
+    line-height: 115%;
+    
+}
+input{
+    width: 8vw;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background: rgb(255, 0, 0);
+    font-size: 10pt;
+    color: rgb(24, 23, 22);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 30pt;
+    color: rgb(100, 0, 42);
+}
